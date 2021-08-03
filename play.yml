@@ -1,0 +1,9 @@
+---
+
+-   hosts:  '{{TARGET}}'
+    user:    '{{USER}}'
+    gather_facts: False
+
+
+    roles:
+    - { role: '{{ROLE}}' }
